@@ -25,27 +25,35 @@ class OtzovickParser {
                 await driver.sleep(2000);
             }
 
-
+            console.log("Начинаем парсить ссылки на отзывы")
             for await (const company of companies) {
                 const company_id = company.otzovick_id;
                 const resource_id = 2;
+                
                 try {
                     await driver.get(company.otzovick_link);
                     
 
                     await this.reloadPage(driver, '.product-name');
                 
-                    await driver.sleep(3000);
+                    await driver.sleep(2500);
 
                     const anchorTags = await driver.findElements(By.css('.review-title'))
+                    const limit = Math.min(anchorTags.length, 5);
+                    let i = 0
                     for await (const a of anchorTags) {
-                        this.links.push([await a.getAttribute('href'), resource_id, company_id])
+                        i++;
+                        this.links.push([await a.getAttribute('href'), resource_id, company_id]);
+                        if(i >= limit) {
+                            break;
+                        }
                     }
                 } catch (e) {
                     console.log('err')
                     continue;
                 }
             }
+            console.log("Начинаем парсить отзывы")
             for await (const linkArr of this.links) {
                 const link = linkArr[0];
                 const resource_id = linkArr[1];
@@ -82,7 +90,7 @@ class OtzovickParser {
                     continue;
                 } 
             }
-            fs.writeFile('./otzovick_date.json', JSON.stringify(this.reviews), () => console.log('Готово!'));
+            fs.writeFile('./otzovick_date.json', JSON.stringify(this.reviews), () => console.log('Отзывы записаны в файл'));
             await driver.quit()
             return this.reviews;
         }

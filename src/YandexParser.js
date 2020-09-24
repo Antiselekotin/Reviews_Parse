@@ -11,6 +11,7 @@ const parseData = async () => {
     let reviews = [];
     const driver = new Builder().forBrowser('chrome').build();
     for await(const company of companies) {
+        console.log("Парсим отзывы компании по ссылке:", company.yandex_link)
         const company_id = company.yandex_id;
         const resource_id = 0;
         try {

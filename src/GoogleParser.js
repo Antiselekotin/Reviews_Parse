@@ -21,7 +21,7 @@ const {
   const parseLinks = async () => {
     try {
       const driver = await new Builder().forBrowser('chrome').build();
-
+      console.log("Начинаем парсить ссылки, на оставивших отзовы")
     for await (const company of companies) {
       try {
         await driver.get(company.google_link);
@@ -42,13 +42,13 @@ const {
     }
     await driver.quit();
     } catch (e) {
-      console.log("Huge problem", e)
+      console.log("Большая ошибка", e)
     }
 
     await findData(Builder);
     await parseData(Builder);
     clearLinks();
-    fs.writeFile('./google_date.json', JSON.stringify(reviews), () => console.log('Готово!'))
+    fs.writeFile('./google_date.json', JSON.stringify(reviews), () => console.log('Отзывы записаны в резервный файл'))
     return reviews
   }
 
@@ -60,6 +60,7 @@ const {
   }
 
   const findData = async () => {
+    console.log("Начинаем парсить ссылки на отзывы")
     try {
       const driver = await new Builder().forBrowser('chrome').build();
       for (const linkEl of linksArray) {
@@ -96,7 +97,7 @@ const {
   const parseData = async () => {
     try {
       const driver = await new Builder().forBrowser('chrome').build();
-
+      console.log("Начинаем парсить отзывы (Основная часть)")
       for await (const urlItem of readyUrls) {
         const url = urlItem[0]
         const company_id = urlItem[1];
