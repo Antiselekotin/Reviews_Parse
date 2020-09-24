@@ -1,0 +1,6 @@
+{
+    "login": "login",
+    "password": "password",
+    "domain": "http://127.0.0.2",
+    "path": "/api/rating/reviews"
+}

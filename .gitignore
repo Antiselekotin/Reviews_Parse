@@ -1,0 +1,6 @@
+config.json
+node_modules
+log.txt
+text.txt
+package-lock.json
+debug.log
