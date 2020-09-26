@@ -5,7 +5,7 @@ const {
 
 
 const test = async() => {
-    const driver = await new Builder().forBrowser('chrome').build();
+    const driver = await new Builder().forBrowser('firefox').build();
     try {
         await driver.get('http://google.com');
         const linkOnImage = await driver.findElement(By.css('#hplogo')).getAttribute('src');

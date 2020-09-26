@@ -9,7 +9,7 @@ const sender = require('./send');
 
 const parseData = async () => {
     let reviews = [];
-    const driver = new Builder().forBrowser('chrome').build();
+    const driver = new Builder().forBrowser('firefox').build();
     for await(const company of companies) {
         console.log("Парсим отзывы компании по ссылке:", company.yandex_link)
         const company_id = company.yandex_id;

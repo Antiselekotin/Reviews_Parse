@@ -20,7 +20,7 @@ const {
 
   const parseLinks = async () => {
     try {
-      const driver = await new Builder().forBrowser('chrome').build();
+      const driver = await new Builder().forBrowser('firefox').build();
       console.log("Начинаем парсить ссылки, на оставивших отзовы")
     for await (const company of companies) {
       try {

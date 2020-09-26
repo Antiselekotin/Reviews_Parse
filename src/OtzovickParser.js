@@ -13,7 +13,7 @@ class OtzovickParser {
         this.links = [];
         this.reviews = [];
         this.parse = async () => {
-            const driver = await new Builder().forBrowser('chrome').build();
+            const driver = await new Builder().forBrowser('firefox').build();
             try {
                 await driver.get('https://otzovik.com/');
                 await driver.sleep(12000);
