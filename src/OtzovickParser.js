@@ -1,4 +1,4 @@
-const companies = require('../companies.json');
+let companies = require('../companies.json');
 const fs = require('fs')
 const {
     Builder,
@@ -27,6 +27,7 @@ class OtzovickParser {
 
             console.log("Начинаем парсить ссылки на отзывы")
             for await (const company of companies) {
+                console.log(`Парсим компанию ${company.name}`)
                 const company_id = company.otzovick_id;
                 const resource_id = 2;
                 
@@ -54,7 +55,12 @@ class OtzovickParser {
                 }
             }
             console.log("Начинаем парсить отзывы")
+            const len = this.links.length;
+            let i = 0;
             for await (const linkArr of this.links) {
+                console.log(`Сбор отзывов готов на ${Math.round(i/len*100)}%`);
+                i++;
+
                 const link = linkArr[0];
                 const resource_id = linkArr[1];
                 const company_id = linkArr[2];
@@ -90,7 +96,6 @@ class OtzovickParser {
                     continue;
                 } 
             }
-            fs.writeFile('./otzovick_date.json', JSON.stringify(this.reviews), () => console.log('Отзывы записаны в файл'));
             await driver.quit()
             return this.reviews;
         }
@@ -107,6 +112,10 @@ class OtzovickParser {
 
 const otzovickParser = new OtzovickParser();
 const p = async() => {
+    const args = Number(process.argv[2] || 999);
+    if (args !== 999) {
+        companies = companies.filter((item, index) => index % 26 === args)
+    }
     const data = await otzovickParser.parse();
     sender.sendReviews(data)
 }

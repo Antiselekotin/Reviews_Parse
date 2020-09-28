@@ -1,3 +1,5 @@
+const fs = require('fs')
+
 const setDate = (date) => {
     let dataStart = new Date();
     if (date.indexOf('неделю назад') + 1) {
@@ -10,6 +12,10 @@ const setDate = (date) => {
       dataStart.setDate(dataStart.getDay() - parseInt(date));
     } else if (date.indexOf('нед') + 1) {
       dataStart.setDate(dataStart.getDay() - parseInt(date) * 7);
+    } else if(date.indexOf('года') + 1) {
+      dataStart.setFullYear(dataStart.getFullYear() - parseInt(date))
+    } else if(date.indexOf('год') + 1) {
+      dataStart.setFullYear(dataStart.getFullYear() - 1)
     } else {
       fs.writeFile('./log.txt', date, () => {
         console.log("logged")
@@ -21,4 +27,4 @@ const setDate = (date) => {
     return `${year}-${month}-${day}`;
   }
 
-  module.exports = setDate;
+  module.exports = {setDate: setDate};

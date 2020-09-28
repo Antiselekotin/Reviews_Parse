@@ -1,209 +1,211 @@
-[{
-    "name": "АртРемонт",
-    "yandex_id": "59219701160",
-    "google_id": "2358ff22a6cc910eb26baf4ca0100e192172b90c",
-    "otzovick_id": "https://otzovik.com/reviews/kompaniya_art-remont_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%90%D1%80%D1%82%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82/@55.7311119,37.2984189,10z/data=!4m8!1m2!2m1!1z0JDRgNGCLdCg0LXQvNC-0L3Rgg!3m4!1s0x414ab54f04df12e3:0x67a1dbdd345c3287!8m2!3d55.749887!4d37.682583",
-    "otzovick_link": "https://otzovik.com/reviews/kompaniya_art-remont_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=59219701160&ol=biz&z=10.12"
-}, {
-    "name": "Добрый дом",
-    "yandex_id": "1756043491",
-    "google_id": "a9142ab61b4fd7a88e014a24e8ce45d5d00fdf99",
-    "otzovick_id": "https://otzovik.com/reviews/kompaniya_po_remontu_kvartir_dobriy_dom_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9+%D0%94%D0%BE%D0%BC/@55.6650939,37.6296368,17z/data=!3m1!4b1!4m5!3m4!1s0x414ab3415eef3fad:0xa001b8735a279360!8m2!3d55.6650909!4d37.6318256",
-    "otzovick_link": "https://otzovik.com/reviews/kompaniya_po_remontu_kvartir_dobriy_dom_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1756043491&ol=biz&z=10.12"
-}, {
-    "name": "Маана",
-    "yandex_id": "49548319986",
-    "google_id": "c84876c3868ab77449259d5a6632839a8a0ac4af",
-    "otzovick_id": "https://otzovik.com/reviews/kompaniya_po_remontu_kvartir_maana_luchshiy_remont/",
-    "google_link": "https://www.google.ru/maps/place/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BF%D0%BE%D0%B4+%D0%9A%D0%BB%D1%8E%D1%87/@55.6760854,37.6227877,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54b6b2fce0e19:0x7464dd53c71f2349!8m2!3d55.6760824!4d37.6249764",
-    "otzovick_link": "https://otzovik.com/reviews/kompaniya_po_remontu_kvartir_maana_luchshiy_remont/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=49548319986&ol=biz&z=10.12"
-}, {
-    "name": "ГК Фундамент — дизайн интерьера и ремонт квартир",
-    "yandex_id": "1015336884",
-    "google_id": "4aa19ae68d54cb46e60205dc6fd953437d7bc7c6",
-    "otzovick_id": "https://otzovik.com/reviews/fundament_ot_kompanii_kkzm/",
-    "google_link": "https://www.google.ru/maps/place/%D0%93%D0%9A+%C2%AB%D0%A4%D1%83%D0%BD%D0%B4%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%C2%BB+%E2%80%94+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0+%D0%B8+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/@55.7220141,37.6156684,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54b1163dbe651:0x677dcfb34eb70267!8m2!3d55.7220111!4d37.6178571",
-    "otzovick_link": "https://otzovik.com/reviews/fundament_ot_kompanii_kkzm/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1015336884&ol=biz&z=10.12"
-}, {
-    "name": "Мастера ремонта",
-    "yandex_id": "4107171362",
-    "google_id": "e3f58a51e8b53bca513af237cef1e0d021a4df90",
-    "otzovick_id": "https://otzovik.com/reviews/stroitelnaya_kompaniya_mastera_remonta_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%B2+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5+%22%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B0+%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%22/@55.7164763,37.5812427,12z/data=!4m8!1m2!2m1!1z0JzQsNGB0YLQtdGA0LAg0YDQtdC80L7QvdGC0LA!3m4!1s0x46b54abf6b30cb25:0xef9b55e315974c91!8m2!3d55.7463761!4d37.6823708",
-    "otzovick_link": "https://otzovik.com/reviews/stroitelnaya_kompaniya_mastera_remonta_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=4107171362&ol=biz&z=10.12"
-}, {
-    "name": "Авальремонт",
-    "yandex_id": "1776947097",
-    "google_id": "90ca899443c3b9951fd776762fdb5ccedb7774d0",
-    "otzovick_id": "https://otzovik.com/reviews/remontnaya_kompaniya_avalremont_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%B8+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD+%D0%BE%D1%82+%22%D0%90%D0%B2%D0%B0%D0%BB%D1%8C%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%22/@55.7077882,37.6862827,17z/data=!3m1!4b1!4m5!3m4!1s0x414ab4d0bd676905:0x7316640036988ee3!8m2!3d55.7077852!4d37.6884714",
-    "otzovick_link": "https://otzovik.com/reviews/remontnaya_kompaniya_avalremont_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1776947097&ol=biz&z=10.12"
-}, {
-    "name": "Сделано",
-    "yandex_id": "1501948040",
-    "google_id": "44a3c9a275e29dc1fe6a621666af180f525a6515",
-    "otzovick_id": "https://otzovik.com/reviews/remontniy_servis_sdelano_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%A1%D0%B4%D0%B5%D0%BB%D0%B0%D0%BD%D0%BE/@55.737284,37.6549533,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54a5ec5a1f105:0xbcd9fe47327bb695!8m2!3d55.737281!4d37.657142",
-    "otzovick_link": "https://otzovik.com/reviews/remontniy_servis_sdelano_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1501948040&ol=biz&z=10.12"
-}, {
-    "name": "Вира-АртСтрой",
-    "yandex_id": "1005164739",
-    "google_id": "d3449ea16eda165f0a889dcfb7d003716dd7a598",
-    "otzovick_id": "https://otzovik.com/reviews/remont_kvartir_vira-artstroy__russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%C2%AB%D0%92%D0%B8%D1%80%D0%B0-%D0%90%D1%80%D1%82%D0%A1%D1%82%D1%80%D0%BE%D0%B9%C2%BB+%E2%80%94+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0+%D0%B8+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/@55.7881056,37.4702247,17z/data=!3m1!4b1!4m5!3m4!1s0x46b548fea325ae7f:0x39ec4a6a9e69161e!8m2!3d55.7881026!4d37.4724134",
-    "otzovick_link": "https://otzovik.com/reviews/remont_kvartir_vira-artstroy__russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1005164739&ol=biz&z=10.12"
-}, {
-    "name": "Группа компаний Первая отделочная компания",
-    "yandex_id": "13813368405",
-    "google_id": "05426e484b81833e81f9fd5ca696a74fd50abc48",
-    "otzovick_id": "https://otzovik.com/reviews/stroitelnaya_organizaciya_pervaya_otdelochnaya_kompaniya_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%9F%D0%B5%D1%80%D0%B2%D0%B0%D1%8F+%D0%9E%D1%82%D0%B4%D0%B5%D0%BB%D0%BE%D1%87%D0%BD%D0%B0%D1%8F+%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F+%7C+%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80,+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%BE%D0%B2+%D0%9B%D0%B5%D1%84%D0%BE%D1%80%D1%82%D0%BE%D0%B2%D0%BE/@55.7532238,37.7133686,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54aa8da81bae9:0x5fa63739c00f2ffb!8m2!3d55.7532208!4d37.7155573",
-    "otzovick_link": "https://otzovik.com/reviews/stroitelnaya_organizaciya_pervaya_otdelochnaya_kompaniya_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=13813368405&ol=biz&z=10.12"
-}, {
-    "name": "Абада ГРУП",
-    "yandex_id": "1194577548",
-    "google_id": "d6b46b5326647bb513a8981685d71bc570a256af",
-    "otzovick_id": "https://otzovik.com/reviews/kompaniya_abada_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F+%D0%90%D0%B1%D0%B0%D0%B4%D0%B0/@55.8403082,37.4831753,12z/data=!4m8!1m2!2m1!1z0JDQsdCw0LTQsA!3m4!1s0x46b5377bf7f56f2b:0x4a419a3bafb3f41e!8m2!3d55.8818768!4d37.5455071",
-    "otzovick_link": "https://otzovik.com/reviews/kompaniya_abada_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1194577548&ol=biz&z=10.12"
-}, {
-    "name": "КоролевРемонт",
-    "yandex_id": "1060736320",
-    "google_id": "4423d66f786ff94bfdedbc94e80740301423be32",
-    "otzovick_id": "https://otzovik.com/reviews/kompaniya_korolev_remont_russia_korolev/",
-    "google_link": "https://www.google.ru/maps/place/%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%91%D0%B2%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%BD%D0%BE-%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BE%D1%87%D0%BD%D0%B0%D1%8F+%D0%A4%D0%B8%D1%80%D0%BC%D0%B0/@55.924849,37.8184838,17z/data=!4m8!1m2!2m1!1z0JrQvtGA0L7Qu9C10LLQoNC10LzQvtC90YI!3m4!1s0x46b532015ea539c1:0xba5ac9569440203!8m2!3d55.924842!4d37.8205899",
-    "otzovick_link": "https://otzovik.com/reviews/kompaniya_korolev_remont_russia_korolev/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1060736320&ol=biz&z=10.12"
-}, {
-    "name": "См-ремонт.ру",
-    "yandex_id": "157086167494",
-    "google_id": "08eac876399fa2acec60a951cb96c7ed9e7401b1",
-    "otzovick_id": "https://otzovik.com/reviews/kompaniya_sm-remont_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%A1%D0%9C-%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82/@55.8127959,37.6476903,17z/data=!3m1!4b1!4m5!3m4!1s0x46b535dd2813c089:0xe0840f9d2108cb82!8m2!3d55.8127929!4d37.649879",
-    "otzovick_link": "https://otzovik.com/reviews/kompaniya_sm-remont_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=157086167494&ol=biz&z=10.12"
-}, {
-    "name": "Небо",
-    "yandex_id": "36334119902",
-    "google_id": "2d68a65cd4a5a266a147b202fc29de5d84bc1e7c",
-    "otzovick_id": "https://otzovik.com/reviews/stroitelnaya_kompaniya_nebo_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F+%D0%9D%D0%95%D0%91%D0%9E/@55.7126685,37.5488984,12z/data=!4m8!1m2!2m1!1z0J3QtdCx0L4g0YDQtdC80L7QvdGC0L3QsNGPINC60L7QvNC_0LDQvdC40Y8!3m4!1s0x414ab3a9fd392b75:0x288095c64e82f3e4!8m2!3d55.6637251!4d37.5986242",
-    "otzovick_link": "https://otzovik.com/reviews/stroitelnaya_kompaniya_nebo_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=36334119902&ol=biz&z=10.12"
-}, {
-    "name": "Евролюкс-групп",
-    "yandex_id": "1196077543",
-    "google_id": "ad4f9bd2c9e17e1fa5ad12b1615dce242090117b",
-    "otzovick_id": "https://otzovik.com/reviews/kompaniya_evrolyuks_grupp_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/eurolux-/@55.6567581,35.4745326,7z/data=!4m8!1m2!2m1!1z0JXQstGA0L7Qu9GO0LrRgS3Qs9GA0YPQv9C_!3m4!1s0x414ab476697344ed:0xcb8e8c5c7956cb3b!8m2!3d55.6567581!4d37.7157435",
-    "otzovick_link": "https://otzovik.com/reviews/kompaniya_evrolyuks_grupp_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1196077543&ol=biz&z=10.12"
-}, {
-    "name": "Новая Москва",
-    "yandex_id": "1274326722",
-    "google_id": "b53f893ab14ac5917b3efe0861a916932db5bf4e",
-    "otzovick_id": "https://otzovik.com/reviews/kompaniya_novaya_moscow_russia_moskovskaya_oblast/",
-    "google_link": "https://www.google.ru/maps/place/%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F+%22%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%22/@55.4390098,39.5421616,8z/data=!4m8!1m2!2m1!1z0J3QvtCy0LDRjyDQnNC-0YHQutCy0LA!3m4!1s0x414aacdbc580487f:0x25f1855c43a7267d!8m2!3d55.565218!4d37.4804997",
-    "otzovick_link": "https://otzovik.com/reviews/kompaniya_novaya_moscow_russia_moskovskaya_oblast/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1274326722&ol=biz&z=10.12"
-}, {
-    "name": "Вам Ремонт",
-    "yandex_id": "226493154442",
-    "google_id": "ffa352a65f6f92a4ffeb5a515aef21fd843335d9",
-    "otzovick_id": "https://otzovik.com/reviews/remont_kvartir_vam_remont_s_andreem_markovim_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%92%D0%B0%D0%BC+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82/@55.723799,37.9414952,13z/data=!4m8!1m2!2m1!1z0JLQsNC8INCg0LXQvNC-0L3Rgg!3m4!1s0x414ac913bc558e99:0x6e00f62ca2116db7!8m2!3d55.7017422!4d37.946462",
-    "otzovick_link": "https://otzovik.com/reviews/remont_kvartir_vam_remont_s_andreem_markovim_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=226493154442&ol=biz&z=10.12"
-}, {
-    "name": "Студия Ремонтов",
-    "yandex_id": "1704435823",
-    "google_id": "086e7be38ac4003d72c21f02fff7fcb9953af7c7",
-    "otzovick_id": "https://otzovik.com/reviews/kompaniya_studiya_remontov_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%A1%D1%82%D1%83%D0%B4%D0%B8%D1%8F+%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%BE%D0%B2/@55.7474937,37.5390501,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54a4cdc2665e3:0x97bfca2ca318ec97!8m2!3d55.7474907!4d37.5412388",
-    "otzovick_link": "https://otzovik.com/reviews/kompaniya_studiya_remontov_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1704435823&ol=biz&z=10.12"
-}, {
-    "name": "Лео Компани",
-    "yandex_id": "1006377692",
-    "google_id": "5d1cba444d3d67ea5237f53533a21834562cd1c0",
-    "otzovick_id": "https://otzovik.com/reviews/studiya_dizaynerskih_i_arhitekturnih_resheniy_leo_company_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/Leo+Company/@55.8135644,37.6918828,17z/data=!3m1!4b1!4m5!3m4!1s0x46b5356539126609:0xdf5f4772709de39b!8m2!3d55.8135614!4d37.6940715",
-    "otzovick_link": "https://otzovik.com/reviews/studiya_dizaynerskih_i_arhitekturnih_resheniy_leo_company_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1006377692&ol=biz&z=10.12"
-}, {
-    "name": "Панокна",
-    "yandex_id": "182646986011",
-    "google_id": "a88ef6e29ea99c6a1062e05ec5352615c04fbc9b",
-    "otzovick_id": "https://otzovik.com/reviews/kompaniya_panokna_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%9F%D0%90%D0%9D%D0%9E%D0%9A%D0%9D%D0%90/@55.586899,37.5993433,17z/data=!3m1!4b1!4m5!3m4!1s0x414aad885588c397:0xa190d3f574bc7524!8m2!3d55.586896!4d37.601532",
-    "otzovick_link": "https://otzovik.com/reviews/kompaniya_panokna_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=182646986011&ol=biz&z=10.12"
-}, {
-    "name": "ГК Вмассиве",
-    "yandex_id": "235747141054",
-    "google_id": "08b43b3468ac24aa49fc8e5684ce54e949675512",
-    "otzovick_id": "https://otzovik.com/reviews/remontno-stroitelnaya_kompaniya_vmassive_inmassive_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%92%D0%9C%D0%90%D0%A1%D0%A1%D0%98%D0%92%D0%95/@55.6541769,37.3735198,11.67z/data=!4m8!1m2!2m1!1z0JPQmiDQktC80LDRgdGB0LjQstC1!3m4!1s0x46b54a94871cfbbb:0x94c82b6421c93a0b!8m2!3d55.752043!4d37.670724",
-    "otzovick_link": "https://otzovik.com/reviews/remontno-stroitelnaya_kompaniya_vmassive_inmassive_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=235747141054&ol=biz&z=10.12"
-}, {
-    "name": "Еск 24",
-    "yandex_id": "49608322526",
-    "google_id": "f0b9e61f0663dbf0f36513858c53af7b811d11b3",
-    "otzovick_id": "https://otzovik.com/reviews/edinaya_servisnaya_kompaniya_24_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%9E%D0%BE%D0%BE+%22%D0%95%D1%81%D0%BA+24%22/@55.761845,37.5505163,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54bd45fa53fc5:0xa9fcbe5c0940e9d9!8m2!3d55.761842!4d37.552705",
-    "otzovick_link": "https://otzovik.com/reviews/edinaya_servisnaya_kompaniya_24_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=49608322526&ol=biz&z=10.12"
-}, {
-    "name": "Проблем в доме нет",
-    "yandex_id": "1274563839",
-    "google_id": "33daef835cea603be387baa0e18fd6adb5a39435",
-    "otzovick_id": "https://otzovik.com/reviews/kompaniya_problem_v_dome_net_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%9F%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC+%D0%B2+%D0%94%D0%BE%D0%BC%D0%B5+%D0%9D%D0%B5%D1%82/@55.774293,37.5792434,17z/data=!3m1!4b1!4m5!3m4!1s0x46b5490bd9831879:0x49aa1dec96d8dab3!8m2!3d55.77429!4d37.5814321",
-    "otzovick_link": "https://otzovik.com/reviews/kompaniya_problem_v_dome_net_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1274563839&ol=biz&z=10.12"
-}, {
-    "name": "БлагоДать",
-    "yandex_id": "119935964720",
-    "google_id": "8558bd4b6fe14e64ded1da8af78f68c7cc4a9576",
-    "otzovick_id": "https://otzovik.com/reviews/remont_kvartir_blagodat_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%94%D0%B0%D1%82%D1%8C/@55.876116,37.5248294,12z/data=!4m8!1m2!2m1!1z0JHQu9Cw0LPQvtCU0LDRgtGM!3m4!1s0x46b53716e50bb285:0x61ccbe96b4c58eb!8m2!3d55.876116!4d37.5948672",
-    "otzovick_link": "https://otzovik.com/reviews/remont_kvartir_blagodat_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=119935964720&ol=biz&z=10.12"
-}, {
-    "name": "Флагман ремонта",
-    "yandex_id": "172548770546",
-    "google_id": "982c35aea47764dbdfa0e7fd1c5a1822433c5d55",
-    "otzovick_id": "https://otzovik.com/reviews/kompaniya_po_remontu_kvartir_flagman_remonta_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%A4%D0%BB%D0%B0%D0%B3%D0%BC%D0%B0%D0%BD+%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0/@55.8595828,37.5775822,17z/data=!3m1!4b1!4m5!3m4!1s0x46b537a827093967:0x1006c9cddfe1e2a1!8m2!3d55.8595798!4d37.5797709",
-    "otzovick_link": "https://otzovik.com/reviews/kompaniya_po_remontu_kvartir_flagman_remonta_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=172548770546&ol=biz&z=10.12"
-}, {
-    "name": "Идет ремонт",
-    "yandex_id": "1689932754",
-    "google_id": "aa26b483e03d5b0278a0495c7e76fe65033e7dda",
-    "otzovick_id": "https://otzovik.com/reviews/stroitelnaya_kompaniya_idet_remont_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%E2%9C%A8+%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F+%C2%AB%D0%98%D0%B4%D1%91%D1%82+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%C2%BB+%D0%9E%D0%9E%D0%9E+%C2%AB%D0%A0%D0%B5%D0%BC%D1%81%D1%82%D1%80%D0%BE%D0%B9%C2%BB+%7C+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%BE%D0%B2,+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%A1%D0%BE%D0%BB%D0%BD%D1%86%D0%B5%D0%B2%D0%BE/@55.6518224,37.4086518,17z/data=!3m1!4b1!4m5!3m4!1s0x46b5520cea9d7ffb:0xafc2eb78bc74aafa!8m2!3d55.6518194!4d37.4108405",
-    "otzovick_link": "https://otzovik.com/reviews/stroitelnaya_kompaniya_idet_remont_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1689932754&ol=biz&z=10.12"
-}, {
-    "name": "Ремонт Экспресс",
-    "yandex_id": "1311889501",
-    "google_id": "a335033d1bd39a31977640fe3068deef21bc26c2",
-    "otzovick_id": "https://otzovik.com/reviews/gruppa_kompaniy_remont-ekspress_russia_moscow/",
-    "google_link": "https://www.google.ru/maps/place/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82-%D0%AD%D0%BA%D1%81%D0%BF%D1%80%D0%B5%D1%81%D1%81/@55.7921266,37.5476682,13z/data=!4m8!1m2!2m1!1z0KDQtdC80L7QvdGCINCt0LrRgdC_0YDQtdGB0YE!3m4!1s0x414ab19fb4f108df:0xc66b7fb6e0b4917b!8m2!3d55.8106418!4d37.5091186",
-    "otzovick_link": "https://otzovik.com/reviews/gruppa_kompaniy_remont-ekspress_russia_moscow/",
-    "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1311889501&ol=biz&z=10.12"
-}]
+[
+    {
+        "name": "АртРемонт",
+        "yandex_id": "59219701160",
+        "google_id": "2358ff22a6cc910eb26baf4ca0100e192172b90c",
+        "otzovick_id": "https://otzovik.com/reviews/kompaniya_art-remont_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%90%D1%80%D1%82%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82/@55.7311119,37.2984189,10z/data=!4m8!1m2!2m1!1z0JDRgNGCLdCg0LXQvNC-0L3Rgg!3m4!1s0x414ab54f04df12e3:0x67a1dbdd345c3287!8m2!3d55.749887!4d37.682583",
+        "otzovick_link": "https://otzovik.com/reviews/kompaniya_art-remont_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=59219701160&ol=biz&z=10.12"
+    }, {
+        "name": "Добрый дом",
+        "yandex_id": "1756043491",
+        "google_id": "a9142ab61b4fd7a88e014a24e8ce45d5d00fdf99",
+        "otzovick_id": "https://otzovik.com/reviews/kompaniya_po_remontu_kvartir_dobriy_dom_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%94%D0%BE%D0%B1%D1%80%D1%8B%D0%B9+%D0%94%D0%BE%D0%BC/@55.6650939,37.6296368,17z/data=!3m1!4b1!4m5!3m4!1s0x414ab3415eef3fad:0xa001b8735a279360!8m2!3d55.6650909!4d37.6318256",
+        "otzovick_link": "https://otzovik.com/reviews/kompaniya_po_remontu_kvartir_dobriy_dom_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1756043491&ol=biz&z=10.12"
+    }, {
+        "name": "Маана",
+        "yandex_id": "49548319986",
+        "google_id": "c84876c3868ab77449259d5a6632839a8a0ac4af",
+        "otzovick_id": "https://otzovik.com/reviews/kompaniya_po_remontu_kvartir_maana_luchshiy_remont/",
+        "google_link": "https://www.google.ru/maps/place/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BF%D0%BE%D0%B4+%D0%9A%D0%BB%D1%8E%D1%87/@55.6760854,37.6227877,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54b6b2fce0e19:0x7464dd53c71f2349!8m2!3d55.6760824!4d37.6249764",
+        "otzovick_link": "https://otzovik.com/reviews/kompaniya_po_remontu_kvartir_maana_luchshiy_remont/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=49548319986&ol=biz&z=10.12"
+    }, {
+        "name": "ГК Фундамент — дизайн интерьера и ремонт квартир",
+        "yandex_id": "1015336884",
+        "google_id": "4aa19ae68d54cb46e60205dc6fd953437d7bc7c6",
+        "otzovick_id": "https://otzovik.com/reviews/fundament_ot_kompanii_kkzm/",
+        "google_link": "https://www.google.ru/maps/place/%D0%93%D0%9A+%C2%AB%D0%A4%D1%83%D0%BD%D0%B4%D0%B0%D0%BC%D0%B5%D0%BD%D1%82%C2%BB+%E2%80%94+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0+%D0%B8+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/@55.7220141,37.6156684,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54b1163dbe651:0x677dcfb34eb70267!8m2!3d55.7220111!4d37.6178571",
+        "otzovick_link": "https://otzovik.com/reviews/fundament_ot_kompanii_kkzm/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1015336884&ol=biz&z=10.12"
+    }, {
+        "name": "Мастера ремонта",
+        "yandex_id": "4107171362",
+        "google_id": "e3f58a51e8b53bca513af237cef1e0d021a4df90",
+        "otzovick_id": "https://otzovik.com/reviews/stroitelnaya_kompaniya_mastera_remonta_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%B2+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B5+%22%D0%9C%D0%B0%D1%81%D1%82%D0%B5%D1%80%D0%B0+%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%22/@55.7164763,37.5812427,12z/data=!4m8!1m2!2m1!1z0JzQsNGB0YLQtdGA0LAg0YDQtdC80L7QvdGC0LA!3m4!1s0x46b54abf6b30cb25:0xef9b55e315974c91!8m2!3d55.7463761!4d37.6823708",
+        "otzovick_link": "https://otzovik.com/reviews/stroitelnaya_kompaniya_mastera_remonta_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=4107171362&ol=biz&z=10.12"
+    }, {
+        "name": "Авальремонт",
+        "yandex_id": "1776947097",
+        "google_id": "90ca899443c3b9951fd776762fdb5ccedb7774d0",
+        "otzovick_id": "https://otzovik.com/reviews/remontnaya_kompaniya_avalremont_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%B8+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD+%D0%BE%D1%82+%22%D0%90%D0%B2%D0%B0%D0%BB%D1%8C%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%22/@55.7077882,37.6862827,17z/data=!3m1!4b1!4m5!3m4!1s0x414ab4d0bd676905:0x7316640036988ee3!8m2!3d55.7077852!4d37.6884714",
+        "otzovick_link": "https://otzovik.com/reviews/remontnaya_kompaniya_avalremont_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1776947097&ol=biz&z=10.12"
+    }, {
+        "name": "Сделано",
+        "yandex_id": "1501948040",
+        "google_id": "44a3c9a275e29dc1fe6a621666af180f525a6515",
+        "otzovick_id": "https://otzovik.com/reviews/remontniy_servis_sdelano_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%A1%D0%B4%D0%B5%D0%BB%D0%B0%D0%BD%D0%BE/@55.737284,37.6549533,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54a5ec5a1f105:0xbcd9fe47327bb695!8m2!3d55.737281!4d37.657142",
+        "otzovick_link": "https://otzovik.com/reviews/remontniy_servis_sdelano_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1501948040&ol=biz&z=10.12"
+    }, {
+        "name": "Вира-АртСтрой",
+        "yandex_id": "1005164739",
+        "google_id": "d3449ea16eda165f0a889dcfb7d003716dd7a598",
+        "otzovick_id": "https://otzovik.com/reviews/remont_kvartir_vira-artstroy__russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%C2%AB%D0%92%D0%B8%D1%80%D0%B0-%D0%90%D1%80%D1%82%D0%A1%D1%82%D1%80%D0%BE%D0%B9%C2%BB+%E2%80%94+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%B0+%D0%B8+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80/@55.7881056,37.4702247,17z/data=!3m1!4b1!4m5!3m4!1s0x46b548fea325ae7f:0x39ec4a6a9e69161e!8m2!3d55.7881026!4d37.4724134",
+        "otzovick_link": "https://otzovik.com/reviews/remont_kvartir_vira-artstroy__russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1005164739&ol=biz&z=10.12"
+    }, {
+        "name": "Группа компаний Первая отделочная компания",
+        "yandex_id": "13813368405",
+        "google_id": "05426e484b81833e81f9fd5ca696a74fd50abc48",
+        "otzovick_id": "https://otzovik.com/reviews/stroitelnaya_organizaciya_pervaya_otdelochnaya_kompaniya_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%9F%D0%B5%D1%80%D0%B2%D0%B0%D1%8F+%D0%9E%D1%82%D0%B4%D0%B5%D0%BB%D0%BE%D1%87%D0%BD%D0%B0%D1%8F+%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F+%7C+%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80,+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%BE%D0%B2+%D0%9B%D0%B5%D1%84%D0%BE%D1%80%D1%82%D0%BE%D0%B2%D0%BE/@55.7532238,37.7133686,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54aa8da81bae9:0x5fa63739c00f2ffb!8m2!3d55.7532208!4d37.7155573",
+        "otzovick_link": "https://otzovik.com/reviews/stroitelnaya_organizaciya_pervaya_otdelochnaya_kompaniya_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=13813368405&ol=biz&z=10.12"
+    }, {
+        "name": "Абада ГРУП",
+        "yandex_id": "1194577548",
+        "google_id": "d6b46b5326647bb513a8981685d71bc570a256af",
+        "otzovick_id": "https://otzovik.com/reviews/kompaniya_abada_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F+%D0%90%D0%B1%D0%B0%D0%B4%D0%B0/@55.8403082,37.4831753,12z/data=!4m8!1m2!2m1!1z0JDQsdCw0LTQsA!3m4!1s0x46b5377bf7f56f2b:0x4a419a3bafb3f41e!8m2!3d55.8818768!4d37.5455071",
+        "otzovick_link": "https://otzovik.com/reviews/kompaniya_abada_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1194577548&ol=biz&z=10.12"
+    }, {
+        "name": "КоролевРемонт",
+        "yandex_id": "1060736320",
+        "google_id": "4423d66f786ff94bfdedbc94e80740301423be32",
+        "otzovick_id": "https://otzovik.com/reviews/kompaniya_korolev_remont_russia_korolev/",
+        "google_link": "https://www.google.ru/maps/place/%D0%9A%D0%BE%D1%80%D0%BE%D0%BB%D1%91%D0%B2%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%BD%D0%BE-%D0%BE%D1%82%D0%B4%D0%B5%D0%BB%D0%BE%D1%87%D0%BD%D0%B0%D1%8F+%D0%A4%D0%B8%D1%80%D0%BC%D0%B0/@55.924849,37.8184838,17z/data=!4m8!1m2!2m1!1z0JrQvtGA0L7Qu9C10LLQoNC10LzQvtC90YI!3m4!1s0x46b532015ea539c1:0xba5ac9569440203!8m2!3d55.924842!4d37.8205899",
+        "otzovick_link": "https://otzovik.com/reviews/kompaniya_korolev_remont_russia_korolev/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1060736320&ol=biz&z=10.12"
+    }, {
+        "name": "См-ремонт.ру",
+        "yandex_id": "157086167494",
+        "google_id": "08eac876399fa2acec60a951cb96c7ed9e7401b1",
+        "otzovick_id": "https://otzovik.com/reviews/kompaniya_sm-remont_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%A1%D0%9C-%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82/@55.8127959,37.6476903,17z/data=!3m1!4b1!4m5!3m4!1s0x46b535dd2813c089:0xe0840f9d2108cb82!8m2!3d55.8127929!4d37.649879",
+        "otzovick_link": "https://otzovik.com/reviews/kompaniya_sm-remont_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=157086167494&ol=biz&z=10.12"
+    }, {
+        "name": "Небо",
+        "yandex_id": "36334119902",
+        "google_id": "2d68a65cd4a5a266a147b202fc29de5d84bc1e7c",
+        "otzovick_id": "https://otzovik.com/reviews/stroitelnaya_kompaniya_nebo_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F+%D0%9D%D0%95%D0%91%D0%9E/@55.7126685,37.5488984,12z/data=!4m8!1m2!2m1!1z0J3QtdCx0L4g0YDQtdC80L7QvdGC0L3QsNGPINC60L7QvNC_0LDQvdC40Y8!3m4!1s0x414ab3a9fd392b75:0x288095c64e82f3e4!8m2!3d55.6637251!4d37.5986242",
+        "otzovick_link": "https://otzovik.com/reviews/stroitelnaya_kompaniya_nebo_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=36334119902&ol=biz&z=10.12"
+    }, {
+        "name": "Евролюкс-групп",
+        "yandex_id": "1196077543",
+        "google_id": "ad4f9bd2c9e17e1fa5ad12b1615dce242090117b",
+        "otzovick_id": "https://otzovik.com/reviews/kompaniya_evrolyuks_grupp_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/eurolux-/@55.6567581,35.4745326,7z/data=!4m8!1m2!2m1!1z0JXQstGA0L7Qu9GO0LrRgS3Qs9GA0YPQv9C_!3m4!1s0x414ab476697344ed:0xcb8e8c5c7956cb3b!8m2!3d55.6567581!4d37.7157435",
+        "otzovick_link": "https://otzovik.com/reviews/kompaniya_evrolyuks_grupp_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1196077543&ol=biz&z=10.12"
+    }, {
+        "name": "Новая Москва",
+        "yandex_id": "1274326722",
+        "google_id": "b53f893ab14ac5917b3efe0861a916932db5bf4e",
+        "otzovick_id": "https://otzovik.com/reviews/kompaniya_novaya_moscow_russia_moskovskaya_oblast/",
+        "google_link": "https://www.google.ru/maps/place/%D0%A1%D1%82%D1%80%D0%BE%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F+%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F+%22%D0%9D%D0%BE%D0%B2%D0%B0%D1%8F+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0%22/@55.4390098,39.5421616,8z/data=!4m8!1m2!2m1!1z0J3QvtCy0LDRjyDQnNC-0YHQutCy0LA!3m4!1s0x414aacdbc580487f:0x25f1855c43a7267d!8m2!3d55.565218!4d37.4804997",
+        "otzovick_link": "https://otzovik.com/reviews/kompaniya_novaya_moscow_russia_moskovskaya_oblast/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1274326722&ol=biz&z=10.12"
+    }, {
+        "name": "Вам Ремонт",
+        "yandex_id": "226493154442",
+        "google_id": "ffa352a65f6f92a4ffeb5a515aef21fd843335d9",
+        "otzovick_id": "https://otzovik.com/reviews/remont_kvartir_vam_remont_s_andreem_markovim_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%92%D0%B0%D0%BC+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82/@55.723799,37.9414952,13z/data=!4m8!1m2!2m1!1z0JLQsNC8INCg0LXQvNC-0L3Rgg!3m4!1s0x414ac913bc558e99:0x6e00f62ca2116db7!8m2!3d55.7017422!4d37.946462",
+        "otzovick_link": "https://otzovik.com/reviews/remont_kvartir_vam_remont_s_andreem_markovim_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=226493154442&ol=biz&z=10.12"
+    }, {
+        "name": "Студия Ремонтов",
+        "yandex_id": "1704435823",
+        "google_id": "086e7be38ac4003d72c21f02fff7fcb9953af7c7",
+        "otzovick_id": "https://otzovik.com/reviews/kompaniya_studiya_remontov_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%A1%D1%82%D1%83%D0%B4%D0%B8%D1%8F+%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%BE%D0%B2/@55.7474937,37.5390501,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54a4cdc2665e3:0x97bfca2ca318ec97!8m2!3d55.7474907!4d37.5412388",
+        "otzovick_link": "https://otzovik.com/reviews/kompaniya_studiya_remontov_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1704435823&ol=biz&z=10.12"
+    }, {
+        "name": "Лео Компани",
+        "yandex_id": "1006377692",
+        "google_id": "5d1cba444d3d67ea5237f53533a21834562cd1c0",
+        "otzovick_id": "https://otzovik.com/reviews/studiya_dizaynerskih_i_arhitekturnih_resheniy_leo_company_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/Leo+Company/@55.8135644,37.6918828,17z/data=!3m1!4b1!4m5!3m4!1s0x46b5356539126609:0xdf5f4772709de39b!8m2!3d55.8135614!4d37.6940715",
+        "otzovick_link": "https://otzovik.com/reviews/studiya_dizaynerskih_i_arhitekturnih_resheniy_leo_company_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1006377692&ol=biz&z=10.12"
+    }, {
+        "name": "Панокна",
+        "yandex_id": "182646986011",
+        "google_id": "a88ef6e29ea99c6a1062e05ec5352615c04fbc9b",
+        "otzovick_id": "https://otzovik.com/reviews/kompaniya_panokna_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%9F%D0%90%D0%9D%D0%9E%D0%9A%D0%9D%D0%90/@55.586899,37.5993433,17z/data=!3m1!4b1!4m5!3m4!1s0x414aad885588c397:0xa190d3f574bc7524!8m2!3d55.586896!4d37.601532",
+        "otzovick_link": "https://otzovik.com/reviews/kompaniya_panokna_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=182646986011&ol=biz&z=10.12"
+    }, {
+        "name": "ГК Вмассиве",
+        "yandex_id": "235747141054",
+        "google_id": "08b43b3468ac24aa49fc8e5684ce54e949675512",
+        "otzovick_id": "https://otzovik.com/reviews/remontno-stroitelnaya_kompaniya_vmassive_inmassive_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%92%D0%9C%D0%90%D0%A1%D0%A1%D0%98%D0%92%D0%95/@55.6541769,37.3735198,11.67z/data=!4m8!1m2!2m1!1z0JPQmiDQktC80LDRgdGB0LjQstC1!3m4!1s0x46b54a94871cfbbb:0x94c82b6421c93a0b!8m2!3d55.752043!4d37.670724",
+        "otzovick_link": "https://otzovik.com/reviews/remontno-stroitelnaya_kompaniya_vmassive_inmassive_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=235747141054&ol=biz&z=10.12"
+    }, {
+        "name": "Еск 24",
+        "yandex_id": "49608322526",
+        "google_id": "f0b9e61f0663dbf0f36513858c53af7b811d11b3",
+        "otzovick_id": "https://otzovik.com/reviews/edinaya_servisnaya_kompaniya_24_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%9E%D0%BE%D0%BE+%22%D0%95%D1%81%D0%BA+24%22/@55.761845,37.5505163,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54bd45fa53fc5:0xa9fcbe5c0940e9d9!8m2!3d55.761842!4d37.552705",
+        "otzovick_link": "https://otzovik.com/reviews/edinaya_servisnaya_kompaniya_24_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=49608322526&ol=biz&z=10.12"
+    }, {
+        "name": "Проблем в доме нет",
+        "yandex_id": "1274563839",
+        "google_id": "33daef835cea603be387baa0e18fd6adb5a39435",
+        "otzovick_id": "https://otzovik.com/reviews/kompaniya_problem_v_dome_net_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%9F%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC+%D0%B2+%D0%94%D0%BE%D0%BC%D0%B5+%D0%9D%D0%B5%D1%82/@55.774293,37.5792434,17z/data=!3m1!4b1!4m5!3m4!1s0x46b5490bd9831879:0x49aa1dec96d8dab3!8m2!3d55.77429!4d37.5814321",
+        "otzovick_link": "https://otzovik.com/reviews/kompaniya_problem_v_dome_net_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1274563839&ol=biz&z=10.12"
+    }, {
+        "name": "БлагоДать",
+        "yandex_id": "119935964720",
+        "google_id": "8558bd4b6fe14e64ded1da8af78f68c7cc4a9576",
+        "otzovick_id": "https://otzovik.com/reviews/remont_kvartir_blagodat_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%91%D0%BB%D0%B0%D0%B3%D0%BE%D0%94%D0%B0%D1%82%D1%8C/@55.876116,37.5248294,12z/data=!4m8!1m2!2m1!1z0JHQu9Cw0LPQvtCU0LDRgtGM!3m4!1s0x46b53716e50bb285:0x61ccbe96b4c58eb!8m2!3d55.876116!4d37.5948672",
+        "otzovick_link": "https://otzovik.com/reviews/remont_kvartir_blagodat_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=119935964720&ol=biz&z=10.12"
+    }, {
+        "name": "Флагман ремонта",
+        "yandex_id": "172548770546",
+        "google_id": "982c35aea47764dbdfa0e7fd1c5a1822433c5d55",
+        "otzovick_id": "https://otzovik.com/reviews/kompaniya_po_remontu_kvartir_flagman_remonta_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%A4%D0%BB%D0%B0%D0%B3%D0%BC%D0%B0%D0%BD+%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0/@55.8595828,37.5775822,17z/data=!3m1!4b1!4m5!3m4!1s0x46b537a827093967:0x1006c9cddfe1e2a1!8m2!3d55.8595798!4d37.5797709",
+        "otzovick_link": "https://otzovik.com/reviews/kompaniya_po_remontu_kvartir_flagman_remonta_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=172548770546&ol=biz&z=10.12"
+    }, {
+        "name": "Идет ремонт",
+        "yandex_id": "1689932754",
+        "google_id": "aa26b483e03d5b0278a0495c7e76fe65033e7dda",
+        "otzovick_id": "https://otzovik.com/reviews/stroitelnaya_kompaniya_idet_remont_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%E2%9C%A8+%D0%9A%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F+%C2%AB%D0%98%D0%B4%D1%91%D1%82+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%C2%BB+%D0%9E%D0%9E%D0%9E+%C2%AB%D0%A0%D0%B5%D0%BC%D1%81%D1%82%D1%80%D0%BE%D0%B9%C2%BB+%7C+%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD+%D0%B8%D0%BD%D1%82%D0%B5%D1%80%D1%8C%D0%B5%D1%80%D0%BE%D0%B2,+%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82+%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B8%D1%80+%D0%A1%D0%BE%D0%BB%D0%BD%D1%86%D0%B5%D0%B2%D0%BE/@55.6518224,37.4086518,17z/data=!3m1!4b1!4m5!3m4!1s0x46b5520cea9d7ffb:0xafc2eb78bc74aafa!8m2!3d55.6518194!4d37.4108405",
+        "otzovick_link": "https://otzovik.com/reviews/stroitelnaya_kompaniya_idet_remont_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1689932754&ol=biz&z=10.12"
+    }, {
+        "name": "Ремонт Экспресс",
+        "yandex_id": "1311889501",
+        "google_id": "a335033d1bd39a31977640fe3068deef21bc26c2",
+        "otzovick_id": "https://otzovik.com/reviews/gruppa_kompaniy_remont-ekspress_russia_moscow/",
+        "google_link": "https://www.google.ru/maps/place/%D0%A0%D0%B5%D0%BC%D0%BE%D0%BD%D1%82-%D0%AD%D0%BA%D1%81%D0%BF%D1%80%D0%B5%D1%81%D1%81/@55.7921266,37.5476682,13z/data=!4m8!1m2!2m1!1z0KDQtdC80L7QvdGCINCt0LrRgdC_0YDQtdGB0YE!3m4!1s0x414ab19fb4f108df:0xc66b7fb6e0b4917b!8m2!3d55.8106418!4d37.5091186",
+        "otzovick_link": "https://otzovik.com/reviews/gruppa_kompaniy_remont-ekspress_russia_moscow/",
+        "yandex_link": "https://yandex.ru/maps/213/moscow/?ll=37.807856%2C55.646273&mode=search&oid=1311889501&ol=biz&z=10.12"
+    }
+]

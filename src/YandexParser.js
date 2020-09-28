@@ -2,16 +2,17 @@ const {
     Builder,
     By
 } = require('selenium-webdriver');
-const companies = require('../companies.json');
-const fs = require('fs')
+let companies = require('../companies.json');
 const sender = require('./send');
 
 
 const parseData = async () => {
+    const args = Number(process.argv[2] || 0);
+    companies = companies.filter((item, index) => index % 3 === args)
     let reviews = [];
     const driver = new Builder().forBrowser('firefox').build();
     for await(const company of companies) {
-        console.log("Парсим отзывы компании по ссылке:", company.yandex_link)
+        console.log("Парсим компанию", company.name)
         const company_id = company.yandex_id;
         const resource_id = 0;
         try {
@@ -59,7 +60,6 @@ const parseData = async () => {
         
     }
     await driver.quit()
-    fs.writeFile('./yandex-date.json', JSON.stringify(reviews), () => console.log('Готово!'))
     return reviews;
 }
 
