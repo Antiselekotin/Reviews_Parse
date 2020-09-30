@@ -16,7 +16,7 @@ const main = async () => {
   const args = Number(process.argv[2] || 0);
   companies = companies.filter((item, index) => index % 7 === args)
   await parseLinks()
-   sender.sendReviews(reviews)
+  //  sender.sendReviews(reviews)
 }
 
 const parseLinks = async () => {
@@ -32,7 +32,7 @@ const parseLinks = async () => {
         i++;
 
         await driver.get(company.google_link);
-        await driver.sleep(6000);
+        await driver.sleep(4000);
         await driver.findElement(By.css('.allxGeDnJMl__text')).click();
         await driver.sleep(1500);
         const reviews = await driver.findElements(By.css('.section-review'))
@@ -48,7 +48,7 @@ const parseLinks = async () => {
       }
     }
     await findData(driver);
-    await parseData(driver);
+    // await parseData(driver);
     clearLinks();
     await driver.quit();
   } catch (e) {
@@ -76,23 +76,24 @@ const findData = async (driver) => {
         i++;
 
         await driver.get(link);
-        await driver.sleep(4000);
-        await driver.findElement(By.css('.section-tab-bar-tab')).click()
-        await driver.sleep(1000);
-        const personReviews = await driver.findElements(By.css('.section-review'))
+        await driver.sleep(2000);
+        console.log(await driver.getCurrentUrl());
+        // await driver.findElement(By.css('.section-tab-bar-tab')).click()
+        // await driver.sleep(1000);
+        // const personReviews = await driver.findElements(By.css('.section-review'))
 
-        for await (const review of personReviews) {
+        // for await (const review of personReviews) {
 
-          const dataId = await review.getAttribute('data-review-id');
+        //   const dataId = await review.getAttribute('data-review-id');
 
-          if (reviewIds.indexOf(dataId) + 1) {
-            await driver.findElement(By.css(`[data-review-id="${dataId}"]`)).click()
-            await driver.sleep(1000);
-            const link = await driver.getCurrentUrl();
-            readyUrls.push([link, linkEl[1]])
-            break;
-          }
-        }
+        //   if (reviewIds.indexOf(dataId) + 1) {
+        //     await driver.findElement(By.css(`[data-review-id="${dataId}"]`)).click()
+        //     await driver.sleep(3000);
+        //     const link = await driver.getCurrentUrl();
+        //     readyUrls.push([link, linkEl[1]])
+        //     break;
+        //   }
+        // }
       } catch (e) {
         console.log(e)
         console.log('_________________________')
@@ -117,7 +118,7 @@ const parseData = async (driver) => {
       i++;
       try {
         await driver.get(url);
-        await driver.sleep(4000);
+        await driver.sleep(2000);
         const review = await driver.executeScript(
           `
               const r = {};
