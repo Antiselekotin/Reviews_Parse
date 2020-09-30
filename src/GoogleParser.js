@@ -106,6 +106,7 @@ const findData = async (driver) => {
           readyUrls.push([newLink, company_id])
         }
       } catch (e) {
+        console.log(e)
         continue;
       }
     }
