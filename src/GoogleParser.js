@@ -82,6 +82,7 @@ const findData = async (driver) => {
         await driver.sleep(3000);
       
         const personReviews = await driver.findElements(By.css('.section-review'))
+        await driver.sleep(5000);
         console.log(await driver.getCurrentUrl());
         // for await (const review of personReviews) {
 
