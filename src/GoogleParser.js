@@ -90,10 +90,6 @@ const findData = async (driver) => {
         
         await driver.findElement(By.css('.section-tab-bar-tab')).click()
         await driver.sleep(4000);
-
-        // const r = await driver.findElement(By.css(`[data-review-id="${id}"]`))
-        // await driver.sleep(4000);
-        // await r.click();
         const res = await driver.executeScript(
           `
             const el = document.querySelector('[data-review-id="${id}"]')
@@ -154,6 +150,7 @@ const parseData = async (driver) => {
 
         reviews.push(review)
       } catch (e) {
+        console.log(e)
         continue;
       }
 
