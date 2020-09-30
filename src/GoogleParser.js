@@ -47,14 +47,13 @@ const parseLinks = async () => {
         continue;
       }
     }
+    await findData(driver);
+    await parseData(driver);
+    clearLinks();
     await driver.quit();
   } catch (e) {
     console.log("Большая ошибка", e)
-  }
-
-  await findData(Builder);
-  await parseData(Builder);
-  clearLinks();
+  }  
 }
 
 const clearLinks = () => {
@@ -64,12 +63,11 @@ const clearLinks = () => {
   })
 }
 
-const findData = async () => {
+const findData = async (driver) => {
   console.log("Начинаем парсить ссылки на отзывы")
   const len = linksArray.length;
   let i = 0;
   try {
-    const driver = await new Builder().forBrowser('firefox').build();
     for (const linkEl of linksArray) {
       const link = linkEl[0]
       try {
@@ -99,15 +97,13 @@ const findData = async () => {
         continue;
       }
     }
-    driver.quit();
   } catch (e) {
     console.log('\n', "Finding problem", e)
   }
 }
 
-const parseData = async () => {
+const parseData = async (driver) => {
   try {
-    const driver = await new Builder().forBrowser('firefox').build();
     console.log("Начинаем парсить отзывы (Основная часть)")
     const len = readyUrls.length;
     let i = 0;
@@ -149,7 +145,6 @@ const parseData = async () => {
 
     }
     await driver.sleep(1000);
-    await driver.quit();
   } catch (e) {
     console.log("Problems with parsing:", e)
   }
