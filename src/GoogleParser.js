@@ -87,6 +87,7 @@ const findData = async (driver) => {
         for await (const review of personReviews) {
 
           const dataId = await review.getAttribute('data-review-id');
+            await driver.sleep(2000)
 
           if (reviewIds.indexOf(dataId) + 1) {
             await driver.findElement(By.css(`[data-review-id="${dataId}"]`)).click()
