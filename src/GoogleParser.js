@@ -76,16 +76,16 @@ const findData = async (driver) => {
         i++;
 
         await driver.get(link);
-        await driver.sleep(2000);
+        await driver.sleep(4000);
         
         await driver.findElement(By.css('.section-tab-bar-tab')).click()
         await driver.sleep(1000);
+      
+        const personReviews = await driver.findElements(By.css('.section-review'))
         console.log(await driver.getCurrentUrl());
-        // const personReviews = await driver.findElements(By.css('.section-review'))
-
         // for await (const review of personReviews) {
 
-        //   const dataId = await review.getAttribute('data-review-id');
+          // const dataId = await review.getAttribute('data-review-id');
 
         //   if (reviewIds.indexOf(dataId) + 1) {
         //     await driver.findElement(By.css(`[data-review-id="${dataId}"]`)).click()
