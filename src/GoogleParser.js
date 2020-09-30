@@ -94,7 +94,7 @@ const findData = async (driver) => {
         await driver.sleep(4000);
 
         const r = await driver.findElement(By.css(`[data-review-id="${id}"]`))
-        await driver,sleep(2000);
+        await driver.sleep(2000);
         await r.click();
         await driver.sleep(4000);
         const newLink = await driver.getCurrentUrl();
