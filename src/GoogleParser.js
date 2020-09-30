@@ -50,11 +50,9 @@ const parseLinks = async () => {
     await findData(driver);
     await parseData(driver);
     clearLinks();
-    
+    await driver.quit();
   } catch (e) {
     console.log("Большая ошибка", e)
-  }  finally {
-    await driver.quit();
   }
 }
 
@@ -68,6 +66,7 @@ const clearLinks = () => {
 const findData = async (driver) => {
   console.log("Начинаем парсить ссылки на отзывы")
   const len = linksArray.length;
+  console.log(linksArray)
   let i = 0;
   try {
     for (const linkEl of linksArray) {
