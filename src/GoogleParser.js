@@ -15,7 +15,7 @@ const main = async () => {
   const args = Number(process.argv[2] || 0);
   companies = companies.filter((item, index) => index % 13 === args)
   await parseLinks()
-  //  sender.sendReviews(reviews)
+   sender.sendReviews(reviews)
 }
 
 const parseLinks = async () => {
@@ -53,7 +53,6 @@ const parseLinks = async () => {
           linksArray.push(item)
         })
       } catch (e) {
-        console.log(e)
         continue;
       }
     }
@@ -76,7 +75,6 @@ const clearLinks = () => {
 const findData = async (driver) => {
   console.log("Начинаем парсить ссылки на отзывы")
   const len = linksArray.length;
-  console.log(linksArray)
   let i = 0;
   try {
     for (const linkEl of linksArray) {
@@ -112,7 +110,6 @@ const findData = async (driver) => {
           readyUrls.push([newLink, company_id])
         }
       } catch (e) {
-        console.log(e)
         continue;
       }
     }
@@ -126,7 +123,6 @@ const parseData = async (driver) => {
     console.log("Начинаем парсить отзывы (Основная часть)")
     const len = readyUrls.length;
     let i = 0;
-    console.log(readyUrls)
     for await (const urlItem of readyUrls) {
       const url = urlItem[0]
       const company_id = urlItem[1];
