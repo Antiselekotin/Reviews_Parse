@@ -15,7 +15,7 @@ const main = async () => {
   const args = Number(process.argv[2] || 0);
   companies = companies.filter((item, index) => index % 13 === args)
   await parseLinks()
-   sender.sendReviews(reviews)
+  //  sender.sendReviews(reviews)
 }
 
 const parseLinks = async () => {
@@ -93,15 +93,24 @@ const findData = async (driver) => {
         await driver.findElement(By.css('.section-tab-bar-tab')).click()
         await driver.sleep(4000);
 
-        const r = await driver.findElement(By.css(`[data-review-id="${id}"]`))
-        await driver.sleep(4000);
-        await r.click();
-        await driver.sleep(4000);
-        const newLink = await driver.getCurrentUrl();
-        await driver.sleep(2000);
-        readyUrls.push([newLink, company_id])
-      
-        
+        // const r = await driver.findElement(By.css(`[data-review-id="${id}"]`))
+        // await driver.sleep(4000);
+        // await r.click();
+        const res = await driver.executeScript(
+          `
+            const el = document.querySelector('[data-review-id="${id}"]')
+            if(el) {
+                el.click();
+                return 1;
+            } return 0;
+          `
+        )
+        if(res) {
+          await driver.sleep(4000);
+          const newLink = await driver.getCurrentUrl();
+          await driver.sleep(2000);
+          readyUrls.push([newLink, company_id])
+        }
       } catch (e) {
         console.log(e)
         continue;
