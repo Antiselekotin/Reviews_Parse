@@ -109,7 +109,7 @@ const parseData = async (driver) => {
     console.log("Начинаем парсить отзывы (Основная часть)")
     const len = readyUrls.length;
     let i = 0;
-
+    console.log(len + "<- len")
     for await (const urlItem of readyUrls) {
       const url = urlItem[0]
       const company_id = urlItem[1];
