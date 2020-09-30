@@ -83,19 +83,19 @@ const findData = async (driver) => {
       
         const personReviews = await driver.findElements(By.css('.section-review'))
         await driver.sleep(5000);
-        console.log(await driver.getCurrentUrl());
-        // for await (const review of personReviews) {
+        
+        for await (const review of personReviews) {
 
-          // const dataId = await review.getAttribute('data-review-id');
+          const dataId = await review.getAttribute('data-review-id');
 
-        //   if (reviewIds.indexOf(dataId) + 1) {
-        //     await driver.findElement(By.css(`[data-review-id="${dataId}"]`)).click()
-        //     await driver.sleep(3000);
-        //     const link = await driver.getCurrentUrl();
-        //     readyUrls.push([link, linkEl[1]])
-        //     break;
-        //   }
-        // }
+          if (reviewIds.indexOf(dataId) + 1) {
+            await driver.findElement(By.css(`[data-review-id="${dataId}"]`)).click()
+            await driver.sleep(3000);
+            const link = await driver.getCurrentUrl();
+            readyUrls.push([link, linkEl[1]])
+            break;
+          }
+        }
       } catch (e) {
         console.log(e)
         console.log('_________________________')
