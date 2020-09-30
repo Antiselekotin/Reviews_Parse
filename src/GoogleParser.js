@@ -75,7 +75,6 @@ const findData = async (driver) => {
         console.log(`Сбор отзывов готов на ${Math.round(i/len*100)}%`);
         i++;
 
-
         await driver.get(link);
         await driver.sleep(4000);
         await driver.findElement(By.css('.section-tab-bar-tab')).click()
@@ -95,6 +94,8 @@ const findData = async (driver) => {
           }
         }
       } catch (e) {
+        console.log(e)
+        console.log('_________________________')
         continue;
       }
     }
@@ -108,7 +109,7 @@ const parseData = async (driver) => {
     console.log("Начинаем парсить отзывы (Основная часть)")
     const len = readyUrls.length;
     let i = 0;
-    console.log(len + "<- len")
+    console.log(readyUrls)
     for await (const urlItem of readyUrls) {
       const url = urlItem[0]
       const company_id = urlItem[1];
