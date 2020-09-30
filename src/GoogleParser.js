@@ -110,6 +110,7 @@ const findData = async (driver) => {
       }
     }
   } catch (e) {
+    console.log(e)
     console.log('\n', "Finding problem", e)
   }
 }
