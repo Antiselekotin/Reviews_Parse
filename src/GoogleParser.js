@@ -32,7 +32,7 @@ const parseLinks = async () => {
         i++;
 
         await driver.get(company.google_link);
-        await driver.sleep(4000);
+        await driver.sleep(6000);
         await driver.findElement(By.css('.allxGeDnJMl__text')).click();
         await driver.sleep(1500);
         const reviews = await driver.findElements(By.css('.section-review'))
