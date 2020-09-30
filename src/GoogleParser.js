@@ -77,9 +77,10 @@ const findData = async (driver) => {
 
         await driver.get(link);
         await driver.sleep(2000);
+        
+        await driver.findElement(By.css('.section-tab-bar-tab')).click()
+        await driver.sleep(1000);
         console.log(await driver.getCurrentUrl());
-        // await driver.findElement(By.css('.section-tab-bar-tab')).click()
-        // await driver.sleep(1000);
         // const personReviews = await driver.findElements(By.css('.section-review'))
 
         // for await (const review of personReviews) {
