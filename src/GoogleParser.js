@@ -31,7 +31,7 @@ const parseLinks = async () => {
         i++;
 
         await driver.get(company.google_link);
-        await driver.sleep(4000);
+        await driver.sleep(6000);
         await driver.findElement(By.css('.allxGeDnJMl__text')).click();
         await driver.sleep(1500);
         
@@ -91,15 +91,17 @@ const findData = async (driver) => {
         await driver.sleep(4000);
         
         await driver.findElement(By.css('.section-tab-bar-tab')).click()
-        await driver.sleep(3000);
+        await driver.sleep(4000);
 
         await driver.findElement(By.css(`[data-review-id="${id}"]`)).click()
-        await driver.sleep(3000);
+        await driver.sleep(4000);
         const newLink = await driver.getCurrentUrl();
+        await driver.sleep(2000);
         readyUrls.push([newLink, company_id])
       
         
       } catch (e) {
+        console.log(e)
         continue;
       }
     }
