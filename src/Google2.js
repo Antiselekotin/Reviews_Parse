@@ -24,7 +24,7 @@ const parseData = async () => {
         i++;
         try {
           await driver.get(url);
-          await driver.sleep(2000);
+          await driver.sleep(4000);
           const review = await driver.executeScript(
             `
                 const r = {};
