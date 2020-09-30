@@ -7,7 +7,6 @@ const setDate = require('./setGoogleDate').setDate;
 const sender = require('./send');
 
 const linksArray = [];
-const reviewIds = [];
 const readyUrls = [];
 
 let reviews = [];
@@ -16,7 +15,7 @@ const main = async () => {
   const args = Number(process.argv[2] || 0);
   companies = companies.filter((item, index) => index % 13 === args)
   await parseLinks()
-  //  sender.sendReviews(reviews)
+   sender.sendReviews(reviews)
 }
 
 const parseLinks = async () => {
@@ -32,23 +31,34 @@ const parseLinks = async () => {
         i++;
 
         await driver.get(company.google_link);
-        await driver.sleep(6000);
+        await driver.sleep(4000);
         await driver.findElement(By.css('.allxGeDnJMl__text')).click();
         await driver.sleep(1500);
-        const reviews = await driver.findElements(By.css('.section-review'))
-        for await (const review of reviews) {
-          reviewIds.push(await review.getAttribute('data-review-id'))
-        }
-        const links = await driver.findElements(By.css('a.section-review-reviewer-link'))
-        for await (const link of links) {
-          linksArray.push([await link.getAttribute('href'), company.google_id])
-        }
+        
+        const reviewsBeta = await driver.executeScript(
+          `
+            const reviews = document.querySelectorAll('.section-review');
+            const reviewsData = []
+             reviews.forEach(section => {
+              const node = {};
+              node.id = section.getAttribute('data-review-id');
+              node.link = section.querySelector('a').getAttribute('href');
+              reviewsData.push(node)
+            })
+            return reviewsData;
+          `
+        )
+        reviewsBeta.forEach(item => {
+          item.company_id = company.google_id;
+          linksArray.push(item)
+        })
       } catch (e) {
+        console.log(e)
         continue;
       }
     }
     await findData(driver);
-    // await parseData(driver);
+    await parseData(driver);
     clearLinks();
     await driver.quit();
   } catch (e) {
@@ -70,7 +80,9 @@ const findData = async (driver) => {
   let i = 0;
   try {
     for (const linkEl of linksArray) {
-      const link = linkEl[0]
+      const link = linkEl.link;
+      const id = linkEl.id;
+      const company_id = linkEl.company_id;
       try {
         console.log(`Сбор отзывов готов на ${Math.round(i/len*100)}%`);
         i++;
@@ -80,26 +92,14 @@ const findData = async (driver) => {
         
         await driver.findElement(By.css('.section-tab-bar-tab')).click()
         await driver.sleep(3000);
+
+        await driver.findElement(By.css(`[data-review-id="${id}"]`)).click()
+        await driver.sleep(3000);
+        const newLink = await driver.getCurrentUrl();
+        readyUrls.push([newLink, company_id])
       
-        const personReviews = await driver.findElements(By.css('.section-review'))
-        await driver.sleep(5000);
         
-        for await (const review of personReviews) {
-
-          const dataId = await review.getAttribute('data-review-id');
-            await driver.sleep(2000)
-
-          if (reviewIds.indexOf(dataId) + 1) {
-            await driver.findElement(By.css(`[data-review-id="${dataId}"]`)).click()
-            await driver.sleep(3000);
-            const link = await driver.getCurrentUrl();
-            readyUrls.push([link, linkEl[1]])
-            break;
-          }
-        }
       } catch (e) {
-        console.log(e)
-        console.log('_________________________')
         continue;
       }
     }
@@ -145,7 +145,6 @@ const parseData = async (driver) => {
 
         reviews.push(review)
       } catch (e) {
-        console.log('err', e)
         continue;
       }
 
