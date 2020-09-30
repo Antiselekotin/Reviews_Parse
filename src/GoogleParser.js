@@ -32,7 +32,7 @@ const parseLinks = async () => {
         i++;
 
         await driver.get(company.google_link);
-        await driver.sleep(4000);
+        await driver.sleep(6000);
         await driver.findElement(By.css('.allxGeDnJMl__text')).click();
         await driver.sleep(1500);
         const reviews = await driver.findElements(By.css('.section-review'))
@@ -50,10 +50,12 @@ const parseLinks = async () => {
     await findData(driver);
     await parseData(driver);
     clearLinks();
-    await driver.quit();
+    
   } catch (e) {
     console.log("Большая ошибка", e)
-  }  
+  }  finally {
+    await driver.quit();
+  }
 }
 
 const clearLinks = () => {
@@ -76,7 +78,7 @@ const findData = async (driver) => {
 
 
         await driver.get(link);
-        await driver.sleep(2000);
+        await driver.sleep(4000);
         await driver.findElement(By.css('.section-tab-bar-tab')).click()
         await driver.sleep(1000);
         const personReviews = await driver.findElements(By.css('.section-review'))
@@ -115,7 +117,7 @@ const parseData = async (driver) => {
       i++;
       try {
         await driver.get(url);
-        await driver.sleep(2000);
+        await driver.sleep(4000);
         const review = await driver.executeScript(
           `
               const r = {};
