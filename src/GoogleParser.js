@@ -14,7 +14,7 @@ let reviews = [];
 
 const main = async () => {  
   const args = Number(process.argv[2] || 0);
-  companies = companies.filter((item, index) => index % 7 === args)
+  companies = companies.filter((item, index) => index % 13 === args)
   await parseLinks()
   //  sender.sendReviews(reviews)
 }
@@ -79,7 +79,7 @@ const findData = async (driver) => {
         await driver.sleep(4000);
         
         await driver.findElement(By.css('.section-tab-bar-tab')).click()
-        await driver.sleep(1000);
+        await driver.sleep(3000);
       
         const personReviews = await driver.findElements(By.css('.section-review'))
         console.log(await driver.getCurrentUrl());
